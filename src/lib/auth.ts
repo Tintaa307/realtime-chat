@@ -28,6 +28,7 @@ export const authOptions: NextAuthOptions = {
   pages: {
     signIn: '/login',
   },
+
   providers: [
     GoogleProvider({
       clientId: getGoogleCredentials().clientId,
