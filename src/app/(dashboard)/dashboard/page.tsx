@@ -36,7 +36,7 @@ const page = async ({}) => {
   return (
     <>
       <Head>
-        <title>Chat-app | Dashboard</title>
+        <title>Pillwise Chat</title>
       </Head>
       <div className="container py-12">
         <h1 className="font-bold text-5xl mb-8">Recent chats</h1>
