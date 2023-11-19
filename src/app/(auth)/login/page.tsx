@@ -28,7 +28,7 @@ const Page: FC = () => {
         <EntryAnimation setFinish={setFinish} />
       ) : (
         <main className="w-full h-screen flex items-center justify-center flex-col gap-12">
-          <div className="w-full h-max flex items-center justify-center">
+          <div className="w-full h-max flex items-center justify-center text-center">
             <h1 className="text-black text-3xl font-semibold">
               Bienvenido al chat de pillwise
             </h1>
