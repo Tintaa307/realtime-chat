@@ -9,6 +9,9 @@ export const metadata = {
   icons: {
     icon: "/pillwise-logo.png",
   },
+  viewport: "width=device-width, initial-scale=1.0",
+  manifest: "/manifest.json",
+  themeColor: "#2A0E8F",
 }
 
 const raleway = Raleway({ subsets: ["latin"] })
