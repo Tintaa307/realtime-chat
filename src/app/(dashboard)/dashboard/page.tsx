@@ -39,9 +39,9 @@ const page = async ({}) => {
         <title>Pillwise Chat</title>
       </Head>
       <div className="container py-12">
-        <h1 className="font-bold text-5xl mb-8">Recent chats</h1>
+        <h1 className="font-bold text-5xl mb-8">Chats recientes</h1>
         {friendsWithLastMessage.length === 0 ? (
-          <p className="text-sm text-zinc-500">Nothing to show here...</p>
+          <p className="text-sm text-zinc-500">Nada para mostrar aqui..</p>
         ) : (
           friendsWithLastMessage.map((friend) => (
             <div
