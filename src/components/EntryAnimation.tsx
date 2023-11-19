@@ -9,6 +9,10 @@ const EntryAnimation = ({ setFinish }: EntryAnimationProps) => {
     <main className="w-full h-screen flex items-center justify-center bg-[#2A0E8F] animate-circle-in">
       <h1 className="opacity-0 text-white font-bold text-4xl animate-appear animation-delay-2000">
         PILLWISE
+        <span className="opacity-0 animate-appear animation-delay-2000">
+          {" "}
+          CHAT
+        </span>
         <span
           onAnimationEnd={() => setFinish(true)}
           className="opacity-0 animate-appear2 animation-delay-3000"
