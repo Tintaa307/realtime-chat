@@ -5,9 +5,9 @@ import { Raleway } from "next/font/google"
 // Done after the video and optional: add page metadata
 export const metadata = {
   title: "Pillwise Chat",
-  description: "Welcome to the Chat-app!",
+  description: "Welcome to the Pillwise chat-app!",
   icons: {
-    icon: "/pillwise-logo.png",
+    icon: "/icons/icon-512x512.png",
   },
   viewport: "width=device-width, initial-scale=1.0",
   manifest: "/manifest.json",
