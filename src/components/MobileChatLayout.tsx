@@ -88,7 +88,7 @@ const MobileChatLayout: FC<MobileChatLayoutProps> = ({
 
                         {friends.length > 0 ? (
                           <div className="text-xs font-semibold leading-6 text-gray-400">
-                            Your chats
+                            Tus chats
                           </div>
                         ) : null}
 
@@ -106,7 +106,7 @@ const MobileChatLayout: FC<MobileChatLayoutProps> = ({
 
                             <li>
                               <div className="text-xs font-semibold leading-6 text-gray-400">
-                                Overview
+                                General
                               </div>
                               <ul role="list" className="-mx-2 mt-2 space-y-1">
                                 {sidebarOptions.map((option) => {
@@ -151,7 +151,7 @@ const MobileChatLayout: FC<MobileChatLayoutProps> = ({
                                   />
                                 </div>
 
-                                <span className="sr-only">Your profile</span>
+                                <span className="sr-only">Tu perfil</span>
                                 <div className="flex flex-col">
                                   <span aria-hidden="true">
                                     {session.user.name}
