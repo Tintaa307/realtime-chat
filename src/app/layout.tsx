@@ -7,7 +7,7 @@ export const metadata = {
   title: "Pillwise Chat",
   description: "Welcome to the Pillwise chat-app!",
   icons: {
-    icon: "/icons/icon-512x512.png",
+    icon: "/pillwise-logo.png",
   },
   viewport: "width=device-width, initial-scale=1.0",
   manifest: "/manifest.json",
